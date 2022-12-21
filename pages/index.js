@@ -1,7 +1,13 @@
+import A from "../components/A";
+
 const Index = () => {
   return (
     <div>
-      <h1>Hello, World!</h1>
+      <div>
+        <A href={"/"} text={"Главная"} />
+        <A href={"/users"} text={"Пользователи"} />
+      </div>
+      <h1>Главная страница</h1>
     </div>
   );
 };
